@@ -6,7 +6,7 @@ public class GameTime : MonoBehaviour {
 
     private int dayLength;      // Number of seconds in a single "day" phase.
     private int currentTime;    // Number of seconds since the start of the level.
-    private float timeChange;   // Number of seconds since the last time Update() was called.
+    private double timeChange;   // Number of seconds since the last time Update() was called.
 
 	// Use this for initialization
 	void Start () {
